@@ -103,7 +103,7 @@ class ContactList {
         return contactList;
     }
 
-    void modifyContat(String firstName, String lastName, String newfirstName, String newlastName, String newphoneNumber) {
+    void modifyContact(String firstName, String lastName, String newfirstName, String newlastName, String newphoneNumber) {
         deleteContact(firstName, lastName);
         contactList.add(new Contact(newfirstName, newlastName, newphoneNumber));
     }
